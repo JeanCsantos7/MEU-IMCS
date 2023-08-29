@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@1,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+   <h1>Calculadora de IMC (e peso ideal)</h1>
+   <p>A classificação do índice de massa corporal <br> (IMC)  pode ajudar a identificar problemas <br> de obesidade ou desnutrição, em crianças, adolescentes, adultos e idosos.</p>
+    <p>Além de calcular o valor de IMC, esta calculadora também indica qual o intervalo de peso ideal <br> que deve ter para garantir uma melhor qualidade de vida.</p>
+    <p>Ter um peso dentro do intervalo de peso ideal ajuda ainda a evitar o aparecimento de <br> várias doenças crônicas, como diabetes e hipertensão.</p>
+    
+
+     <h1>Como interpretar o resultado de IMC</h1>
+     <p>Depois de obter o resultado de IMC, deve-se interpretar o valor utilizando a seguinte <br> tabela:</p>
+
+    <table>
+    
+        <thead>
+          <tr>
+            <th>IMC</th>
+            <th>CLASSIFICAÇÃO</th>
+
+          </tr>
+
+          
+
+        </thead>
+
+        <br>
+
+       
+       
+
+        <tbody>
+
+           
+
+          <tr>
+           
+            <td>Menor que 18,5</td>
+            <td>Magreza</td>
+
+
+
+          </tr>
+
+          <tr>
+            <td>18,5 a 24,9</td>
+            <td>Normal</td>
+
+          </tr>
+
+          <tr>
+            <td>25 a 29,9</td>
+            <td>Sobrepeso</td>
+
+          </tr>
+
+
+          <tr>
+            <td>30 a 34,9</td>
+            <td>Obesidade grau I</td>
+
+          </tr>
+
+
+          <tr>
+            <td>35 a 39,9</td>
+            <td>Obesidade grau II</td>
+
+          </tr>
+
+          <tr>
+            <td>Maior que 40</td>
+            <td>Obesidade grau III</td>
+
+          </tr>
+
+        </tbody>
+
+      
+
+    </table>
+
+   <h1>Calculadora de IMC</h1>
+   <p>Coloque os seus dados na calculadora e calcule o seu IMC:</p>
+
+ 
+   
+   <div class="Container">
+    
+    <div class="conteudo">
+
+        <h2>Idade</h2>
+    
+        <label for="email">
+            <input type="text" placeholder="Ex: 35">
+        </label>
+       
+    
+        <br>
+        
+        <h2>Altura</h2>
+        <label  for="altura">
+            <input class="altura" type="text" placeholder="Ex: 1.65">
+        </label>
+    
+        <br>
+    
+        <h2>Peso</h2>
+        <label  for="peso">
+         
+            <input class="peso" type="text" placeholder="Ex: 65kg">
+    
+        </label>
+
+        <button onclick="calculate()">CALCULAR</button>
+
+    
+
+
+    </div>
+
+  
+    
+   
+    
+
+   
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
